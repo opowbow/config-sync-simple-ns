@@ -1,0 +1,6 @@
+apiVersion: configmanagement.gke.io/v1
+kind: Fleet
+metadata:
+  name: my-fleet
+spec:
+  management: automatic

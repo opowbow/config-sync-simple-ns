@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-new-namespace
+  labels:
+    environment: development
+  annotations:
+   configsync.gke.io/cluster-name-selector: online-boutique,user-cluster-001
